@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap插件需要引入 jQuery，要放在前面 -->
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap插件 -->
+    <script src="bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="IEEE.js"></script>
+</head>
+
+<body>
+
+    <br>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="u" class="control-label col-sm-2">数据字段：
+            </label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="dataNum" placeholder="请输入数据字段">
+            </div>
+        </div>
+    </form>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-5">
+            <button type="submit" id="sub"  class="btn btn-success">提交</button>
+            <button type="reset"  class="btn btn-danger">重填</button>
+        </div>
+    </div>
+
+    <div class="content-Left">
+        <table class="table table-hover" id="IEEE_table" style="TABLE-LAYOUT: fixed;" >
+            <caption>帧结构</caption>
+            <thead>
+                <th>前导码</th>
+                <th>帧前定界符</th>
+                <th>目的地址</th>
+                <th>原地址</th>
+                <th>长度字段</th>
+                <th>数据字段</th>
+                <th>检验字段</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+</body>
+
+</html>
